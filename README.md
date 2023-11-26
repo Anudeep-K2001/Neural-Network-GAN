@@ -44,7 +44,7 @@ After running the `train_dcgan_mnist` code, check the `generated_images` subdire
 
 ## Testing
 
-The `Assignment_04_tests.py` file includes three tests:
+The `test_cases.py` file includes three tests:
 
 1. `test_generator`: Tests your generator architecture.
 2. `test_discriminator`: Tests your discriminator architecture.
@@ -53,4 +53,4 @@ The `Assignment_04_tests.py` file includes three tests:
 Ensure your implementation passes these tests using the following command:
 
 ```bash
-py.test --verbose Assignment_04_tests.py
+py.test --verbose test_cases.py
